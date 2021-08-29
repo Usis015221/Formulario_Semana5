@@ -54,7 +54,7 @@ namespace Formulario_Semana5
             // 
             // menuStrip1
             // 
-            this.menuStrip1.Font = new System.Drawing.Font("Arial", 13F);
+            this.menuStrip1.Font = new System.Drawing.Font("Arial", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -65,7 +65,7 @@ namespace Formulario_Semana5
             this.acercaDeToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1176, 39);
+            this.menuStrip1.Size = new System.Drawing.Size(1176, 40);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -77,25 +77,25 @@ namespace Formulario_Semana5
             this.nuevoProyectoToolStripMenuItem,
             this.importarExportarProyectoToolStripMenuItem});
             this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
-            this.archivoToolStripMenuItem.Size = new System.Drawing.Size(116, 35);
+            this.archivoToolStripMenuItem.Size = new System.Drawing.Size(127, 36);
             this.archivoToolStripMenuItem.Text = "Archivo";
             // 
             // abrirToolStripMenuItem
             // 
             this.abrirToolStripMenuItem.Name = "abrirToolStripMenuItem";
-            this.abrirToolStripMenuItem.Size = new System.Drawing.Size(425, 40);
+            this.abrirToolStripMenuItem.Size = new System.Drawing.Size(455, 38);
             this.abrirToolStripMenuItem.Text = "Abrir";
             // 
             // nuevoProyectoToolStripMenuItem
             // 
             this.nuevoProyectoToolStripMenuItem.Name = "nuevoProyectoToolStripMenuItem";
-            this.nuevoProyectoToolStripMenuItem.Size = new System.Drawing.Size(425, 40);
+            this.nuevoProyectoToolStripMenuItem.Size = new System.Drawing.Size(455, 38);
             this.nuevoProyectoToolStripMenuItem.Text = "Nuevo Proyecto";
             // 
             // importarExportarProyectoToolStripMenuItem
             // 
             this.importarExportarProyectoToolStripMenuItem.Name = "importarExportarProyectoToolStripMenuItem";
-            this.importarExportarProyectoToolStripMenuItem.Size = new System.Drawing.Size(425, 40);
+            this.importarExportarProyectoToolStripMenuItem.Size = new System.Drawing.Size(455, 38);
             this.importarExportarProyectoToolStripMenuItem.Text = "Importar/Exportar Proyecto";
             // 
             // guardarToolStripMenuItem
@@ -104,19 +104,19 @@ namespace Formulario_Semana5
             this.guardarComoToolStripMenuItem,
             this.guardarEnToolStripMenuItem});
             this.guardarToolStripMenuItem.Name = "guardarToolStripMenuItem";
-            this.guardarToolStripMenuItem.Size = new System.Drawing.Size(125, 35);
+            this.guardarToolStripMenuItem.Size = new System.Drawing.Size(129, 36);
             this.guardarToolStripMenuItem.Text = "Guardar";
             // 
             // guardarComoToolStripMenuItem
             // 
             this.guardarComoToolStripMenuItem.Name = "guardarComoToolStripMenuItem";
-            this.guardarComoToolStripMenuItem.Size = new System.Drawing.Size(297, 40);
+            this.guardarComoToolStripMenuItem.Size = new System.Drawing.Size(307, 38);
             this.guardarComoToolStripMenuItem.Text = "Guardar como..";
             // 
             // guardarEnToolStripMenuItem
             // 
             this.guardarEnToolStripMenuItem.Name = "guardarEnToolStripMenuItem";
-            this.guardarEnToolStripMenuItem.Size = new System.Drawing.Size(297, 40);
+            this.guardarEnToolStripMenuItem.Size = new System.Drawing.Size(307, 38);
             this.guardarEnToolStripMenuItem.Text = "Guardar en...";
             // 
             // otrosProyectosToolStripMenuItem
@@ -126,39 +126,39 @@ namespace Formulario_Semana5
             this.actualToolStripMenuItem,
             this.antiguosToolStripMenuItem});
             this.otrosProyectosToolStripMenuItem.Name = "otrosProyectosToolStripMenuItem";
-            this.otrosProyectosToolStripMenuItem.Size = new System.Drawing.Size(213, 35);
+            this.otrosProyectosToolStripMenuItem.Size = new System.Drawing.Size(231, 36);
             this.otrosProyectosToolStripMenuItem.Text = "Otros Proyectos";
             // 
             // recientesToolStripMenuItem
             // 
             this.recientesToolStripMenuItem.Name = "recientesToolStripMenuItem";
-            this.recientesToolStripMenuItem.Size = new System.Drawing.Size(232, 40);
+            this.recientesToolStripMenuItem.Size = new System.Drawing.Size(238, 38);
             this.recientesToolStripMenuItem.Text = "Actual ";
             // 
             // actualToolStripMenuItem
             // 
             this.actualToolStripMenuItem.Name = "actualToolStripMenuItem";
-            this.actualToolStripMenuItem.Size = new System.Drawing.Size(232, 40);
+            this.actualToolStripMenuItem.Size = new System.Drawing.Size(238, 38);
             this.actualToolStripMenuItem.Text = "Recientes";
             this.actualToolStripMenuItem.Click += new System.EventHandler(this.actualToolStripMenuItem_Click);
             // 
             // antiguosToolStripMenuItem
             // 
             this.antiguosToolStripMenuItem.Name = "antiguosToolStripMenuItem";
-            this.antiguosToolStripMenuItem.Size = new System.Drawing.Size(232, 40);
+            this.antiguosToolStripMenuItem.Size = new System.Drawing.Size(238, 38);
             this.antiguosToolStripMenuItem.Text = "Antiguos";
             // 
             // ayudaToolStripMenuItem
             // 
             this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
-            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(109, 35);
+            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(115, 36);
             this.ayudaToolStripMenuItem.Text = "Ayuda ";
             this.ayudaToolStripMenuItem.Click += new System.EventHandler(this.ayudaToolStripMenuItem_Click);
             // 
             // acercaDeToolStripMenuItem
             // 
             this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
-            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(150, 35);
+            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(154, 36);
             this.acercaDeToolStripMenuItem.Text = "Acerca De";
             this.acercaDeToolStripMenuItem.Click += new System.EventHandler(this.acercaDeToolStripMenuItem_Click);
             // 
