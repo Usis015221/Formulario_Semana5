@@ -227,6 +227,7 @@ namespace Formulario_Semana5
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackgroundImage = global::Formulario_Semana5.Properties.Resources.imagen;
             this.ClientSize = new System.Drawing.Size(1176, 709);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
