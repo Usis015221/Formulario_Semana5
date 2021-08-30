@@ -8,12 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-//Alan Henríquez-USIS003421
-//Daniela Esperanza-USIS046821
-//Josselyn Rivas-USIS052421
-//Geovanni Guerrero-USIS015221
-//Melany Campos-USIS055421
-//Alvaro Antonio-USIS039521
+
+            //======= Integrantes =======
+            //* Alan Henríquez - USIS003421
+            //* Daniela Esperanza - USIS046821
+            //* Josselyn Rivas - USIS052421
+            //* Geovanni Guerrero - USIS015221
+            //* Melany Campos - USIS055421
+            //* Alvaro Antonio - USIS039521
+
+
 namespace Formulario_Semana5
 {
     public partial class Form1 : Form
