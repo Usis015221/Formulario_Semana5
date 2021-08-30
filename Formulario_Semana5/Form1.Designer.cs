@@ -65,7 +65,7 @@ namespace Formulario_Semana5
             this.acercaDeToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1176, 38);
+            this.menuStrip1.Size = new System.Drawing.Size(1170, 38);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "MenuStrip";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
